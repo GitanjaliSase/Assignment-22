@@ -13,6 +13,11 @@
             color:#001858;
             padding: 40px;
         }
+        h3{
+            font-family:Arial Narrow;
+            font-size: 30px;
+            text-align: center;
+        }
         .btn{
         border: none;
         font-size: 25px;
@@ -21,11 +26,44 @@
         background-color: #f582ae;
         margin: 15px;
         padding: 5px 20px;
+        text-decoration: none;
       }
       .menu{
         display: flex;
         flex-direction: row;
         justify-content:center;
+      }
+      .menu-card{
+        background-color: #fff;
+        width: 150px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+       box-shadow: 0 0 10px 2px #594a4e;
+      }
+      .menu-icon{
+        height: 90px;
+        display: block;
+        margin: 10px 10px auto;
+      }
+      .orderbtn{
+        background-color: #f582ae;
+        background-color: #078080;
+        color:white;
+        border:none;
+        border-radius: 10px;
+        padding: 5px 8px;
+        display: block;
+        margin: 10px  auto;
+      }
+      .menu-title{
+         font-size: 18px;
+         padding: 0;
+         margin: 5px 0 0 0;
+      }
+      p{
+        padding: 0;
+        margin: 1px;
       }
     </style>
 </head>
@@ -39,6 +77,16 @@
    <button class="btn"> <a href="#Rotis">Rotis</a></button>
    <button class="btn"> <a href="#Sweets">Sweets</a></button>
    </div>
+   <h3>Starters</h3>
+  <div class="menu-container">
 
+   <div class="menu-card">
+    <img src="./../images/papad.jpg" alt="Papad" class="menu-icon">
+     <h2 class="menu-title">Masala Papad </h2>
+     <p>Price : ₹ 50/-</p>
+     <button class="orderbtn"> Order</button>
+   </div>
+
+</div>
 </body>
 </html>
